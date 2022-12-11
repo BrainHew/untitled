@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open https://brainhew.github.io/untitled/index.html to view it in your browser.
+Open https://brainhew.github.io/untitled/public/index.html to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
