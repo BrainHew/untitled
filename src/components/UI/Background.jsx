@@ -2,8 +2,7 @@ import React from 'react';
 
 const Background = () => {
     return (
-        <div>
-
+        <div className="allBlocks">
         </div>
     );
 };

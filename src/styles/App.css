@@ -1,5 +1,12 @@
 *{
     font-family: 'Barlow', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.allBlocks{
+    margin: auto;
+    width: 1440px;
+    height: 100%;
 }
 .header{
     height: 130px;
@@ -8,15 +15,38 @@
 }
 [class^="box-"] {
     display: grid;
-    font-size:46px;
-    margin-top: 30px;
+    font-size:32px;
+    margin-top: 20px;
     height: 75px;
-    background: white;
     text-align: center;
+    color: azure;
 }
 .container {
     display: grid;
-    gap: 80px;
-    grid-template-columns: 130px 190px 190px 190px 190px;
+    gap: 130px;
+    grid-template-columns: 130px 150px 150px 150px 150px;
     margin-left: 30px;
+}
+[class^="box-"] button{
+    background: #131212;
+    border: #131212;
+    cursor: pointer;
+}
+
+p{
+    font-size:32px;
+    text-align:center;
+}
+a {
+    text-decoration: none !important;
+}
+.background{
+    height: 1000px;
+    width: 1440px;
+    background: url(ФОН.png) rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    text-align:center;
+    color: #fff;
 }
