@@ -1,7 +1,8 @@
 *{
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Nova Cut', cursive;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .allBlocks{
     margin: auto;
@@ -15,10 +16,9 @@
 }
 [class^="box-"] {
     display: grid;
-    font-size:32px;
+    font-size:38px;
     margin-top: 20px;
     height: 75px;
-    text-align: center;
     color: azure;
 }
 .container {
@@ -27,6 +27,17 @@
     grid-template-columns: 130px 150px 150px 150px 150px;
     margin-left: 30px;
 }
+.container1 {
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 77px 77px 77px 77px 77px;
+    margin-left: 40px;
+}
+.container1 p{
+    margin-left: 100px;
+    margin-top: -75px;
+    color: azure;
+}
 [class^="box-"] button{
     background: #131212;
     border: #131212;
@@ -34,8 +45,7 @@
 }
 
 p{
-    font-size:32px;
-    text-align:center;
+    font-size:38px;
 }
 a {
     text-decoration: none !important;
@@ -47,6 +57,88 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    text-align:center;
     color: #fff;
+}
+.background1{
+    height: 1113px;
+    width: 1440px;
+    background: url(about.png) rgba(0,0,0,0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: #fff;
+}
+.background2{
+    height: 1113px;
+    width: 1440px;
+    background: url(login.png) rgba(0,0,0,0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: #fff;
+}
+.text1{
+    height: 315px;
+    width: 1045px;
+    font-size:40px;
+    text-align: center;
+    margin-left: 60px;
+    padding-top: 120px;
+}
+.text2{
+    height: 315px;
+    width: 1045px;
+    font-size:40px;
+    margin-left: 60px;
+    text-align: center;
+}
+.auth1{
+    position: absolute;
+    width: 908px;
+    height: 498px;
+    margin-left: 278px;
+    margin-top: 427px;
+    background: #37434A;
+    border-radius: 20px;
+}
+.auth2{
+    position: absolute;
+    width: 646px;
+    height: 95px;
+    margin-left: 417px;
+    margin-top: 164px;
+    font-size: 28px;
+    line-height: 90px;
+    text-align: center;
+    background: #37434A;
+    border-radius: 20px;
+}
+input{
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 160px;
+    width: 580px;
+    height: 95px;
+    background: #212E35;
+    border-radius: 20px;
+    border:0;
+    font-size: 25px;
+    color: white;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 30px;
+    font-size: 25px;
+}
+.auth1 button{
+    margin-top: 40px;
+    margin-left: 160px;
+    width: 580px;
+    height: 95px;
+    background: #212E35;
+    border-radius: 20px;
+    border:0;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
 }

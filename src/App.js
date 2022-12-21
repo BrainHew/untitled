@@ -15,9 +15,7 @@ function App() {
           }}>
               <BrowserRouter>
                   <Header/>
-                  <div className="background" >
-                      <AppRouter/>
-                  </div>
+                    <AppRouter/>
               </BrowserRouter>
           </AuthContext.Provider>
       </div>

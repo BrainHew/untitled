@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import {Link} from "react-router-dom";
 import logo from './HGS.png';
-import button from './кнопки.png';
 import {AuthContext} from "../../context";
 
 const Header = () => {
@@ -13,21 +12,17 @@ const Header = () => {
                     <img src={logo} alt={'logo'} width={130} height={126} style = {{marginTop: -20}}/>
                 </div>
                 <div className="box-2">
-                    <img src={button} alt={'button'} width={150} height={75}/>
-                        <Link to = "/main" style={{color: 'white', marginTop: -70}}>Главная</Link>
+                    <Link to = "/main" style={{color: 'white', marginTop: 19}}>Main</Link>
                 </div>
                 <div className="box-3">
-                    <img src={button} alt={'button'} width={150} height={75}/>
-                    <Link to = "/tests" style={{color: 'white', marginTop: -70}}>Тесты</Link>
+                    <Link to = "/tests" style={{color: 'white', marginTop: 19}}>Tests</Link>
                 </div>
                 <div className="box-4">
-                    <img src={button} alt={'button'} width={150} height={75}/>
-                    <Link to = "/about" style={{color: 'white', marginTop: -70}}>О нас</Link>
+                    <Link to = "/about" style={{color: 'white', marginTop: 19}}>About</Link>
                 </div>
                 <div className="box-5" >
                     <button onClick={() => setIsAuth(false)}>
-                        <img src={button} alt={'button'} width={150} height={75} style={{marginTop: -24}}/>
-                        <p style={{color: 'white', marginTop: -75}}>Выйти</p>
+                        <p style={{color: 'white', marginTop: 12}}>Exit</p>
                     </button>
                 </div>
             </div>
